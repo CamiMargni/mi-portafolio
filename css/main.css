@@ -1,5 +1,6 @@
 body{
   font-family: 'Red Hat Text', sans-serif;
+  background-color: #E2C5A7;
 }
 
 header{
@@ -11,7 +12,7 @@ header{
 }
 /* para citar ids pongo # */
 #sobre-mi{
-  background: #FF5733;
+  background: #F1F1F1;
   padding: 50px 0 30px 0;
   text-align: center;
   margin-top: 40px;
@@ -21,7 +22,8 @@ header{
   padding-bottom: 40px;
 }
 #barra1-color{
-  background: #FF5733;
+/*  background: #41161B;*/
+  background: #A43E37;
 }
 
 #laboral{

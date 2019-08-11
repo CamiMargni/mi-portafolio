@@ -37,11 +37,36 @@ sr.reveal('#sobre-mi', { //para el sobre mí
   reset: true
 });
 
-sr.reveal('footer', { //para el sobre mí
+sr.reveal('.cont-der', { //para el sobre mí
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  viewFactor: 0.2
+});
+
+sr.reveal('.cont-izq', { //para conocimientos izq
+  duration: 2000,
+  origin: 'left',
+  distance: '300px'
+});
+
+sr.reveal('#tituloConocimientos', { //para conocimientos
+  duration: 2000,
+  origin: 'top',
+  distance: '300px'
+});
+
+sr.reveal('#idioma', { //para el idioma
+  duration: 2000,
+  origin: 'bottom',
+  distance: '300px'
+});
+
+sr.reveal('footer', { //para el contacto
   duration: 2000,
   origin: 'left',
   distance: '300px',
-  delay:300,
+  delay:150,
   viewFactor: 0.2,
   reset: true
 });
