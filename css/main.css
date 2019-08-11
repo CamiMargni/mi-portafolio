@@ -1,0 +1,39 @@
+body{
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+header{
+  margin-top: 75px;
+}
+
+#header-content-right{
+  line-height: 200px;
+}
+/* para citar ids pongo # */
+#sobre-mi{
+  background: #FF5733;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+#conocimientos{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#barra1-color{
+  background: #FF5733;
+}
+
+#laboral{
+  background-color: #F1F1F1;
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+
+#contacto{
+  padding: 40px 0 30px 0;
+}
+
+#icono1{
+    margin: 20px;
+}
